@@ -1,6 +1,12 @@
-function isPrime(num) {
+/* eslint-disable valid-jsdoc */
+"use strict";
+/**
+ * 
+ * @param {Number} num 
+ */
+function isPrime(value) {
     for(let i = 2; i < value; i++) {
-        if(num % i === 0) {
+        if(value % i === 0) {
             return false;
         }
     }
