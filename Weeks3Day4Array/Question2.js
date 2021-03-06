@@ -1,8 +1,8 @@
 "use strict";
 /**
  * 
- * @param {*Array} arr arrays of number
- */
+ * @param {Array} arr arrays of number
+ *@return sum of numbers/
 function addend(arr){
     for(let i=0;i<arr.length;i++){
         let sum=arr[0]+arr[arr.length-1];

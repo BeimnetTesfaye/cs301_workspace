@@ -4,7 +4,8 @@ let arr2=[1,2,3,4];
 /**
  * 
  * @param {Array} arr1 the first array
- * @param {*Array} arr2 the second array 
+ * @param {Array} arr2 the second array 
+ * @returns{boolean} true or false
  */
 function isArrayEqual(arr1,arr2){
     if(arr1.length!==arr2.length){
